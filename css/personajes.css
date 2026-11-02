@@ -1,0 +1,21 @@
+
+
+.footer {
+    padding: 35px 8%;
+    text-align: center;
+    background: #05060a;
+    border-top: 1px solid var(--borde);
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: var(--rojo);
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: var(--celeste);
+}

@@ -59,7 +59,7 @@ p {
         var(--fondo);
 }
 
-.hero-content {
+.heroimage {
     max-width: 850px;
 }
 
@@ -211,7 +211,6 @@ p {
 
 .tarjeta:hover .tarjeta-imagen img {
     transform: scale(1.07);
-    filter: brightness(1.15) saturate(1.2);
 }
 
 .tarjeta-contenido {
