@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
 
+
+
+
 :root {
     --fondo: #08090f;
     --fondo-secundario: #11131e;
@@ -12,7 +15,9 @@
 
 
 body {
-    background: var(--fondo);
+    background: #9c0000;
+    background: linear-gradient(0deg, rgba(156, 0, 0, 1) 0%, rgba(14, 0, 0, 1) 46%, rgba(0, 0, 0, 1) 76%);
+
     color: var(--blanco);
     font-family: 'Roboto', sans-serif;
     line-height: 1.7;
