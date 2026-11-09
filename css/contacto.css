@@ -1,0 +1,42 @@
+.formulario {
+    display: grid;
+    gap: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.campo {
+    display: grid;
+    gap: 8px;
+}
+
+.campo label {
+    font-weight: 700;
+}
+
+.campo input, .campo textarea, .campo select {
+    width: 100%;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid var(--borde);
+    background: var(--fondo-secundario);
+    color: white;
+    font: inherit;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.campo input:focus, .campo textarea:focus, .campo select:focus {
+    outline: none;
+    border-color: var(--celeste);
+    box-shadow: 0 0 12px rgba(0, 217, 255, 0.15);
+}
+
+.campo textarea {
+    min-height: 160px;
+    resize: vertical;
+}
+
+.formulario .boton {
+    cursor: pointer;
+    font: inherit;
+}

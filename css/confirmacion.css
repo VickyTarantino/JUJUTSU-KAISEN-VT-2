@@ -1,0 +1,32 @@
+.confirmacion {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.confirmacion-contenido {
+    max-width: 600px;
+    padding: 40px;
+    background-color: #11131e;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(255, 35, 72, 0.15);
+}
+
+.confirmacion h1 {
+    color: #ff2348;
+    margin-bottom: 15px;
+}
+
+.confirmacion p {
+    color: #a5a7b5;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.confirmacion .boton {
+    display: inline-block;
+}
