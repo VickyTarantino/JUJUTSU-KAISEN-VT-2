@@ -1,0 +1,71 @@
+.portada-pagina {
+    padding: 90px 8%;
+    text-align: center;
+    background:
+        radial-gradient(ellipse at top, rgba(255, 35, 72, 0.16), transparent 65%),
+        var(--fondo-secundario);
+    border-bottom: 1px solid var(--borde);
+}
+
+.portada-pagina h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 15px;
+}
+
+.portada-pagina p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contenido {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.texto-destacado {
+    border-left: 4px solid var(--rojo);
+    padding: 20px 25px;
+    background: rgba(255, 255, 255, 0.035);
+    border-radius: 0 8px 8px 0;
+    margin: 25px 0;
+}
+
+
+.dos-columnas {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 35px;
+    align-items: center;
+}
+
+
+
+.lista-informacion {
+    display: grid;
+    gap: 18px;
+    margin-top: 25px;
+}
+
+.lista-informacion li {
+    padding: 18px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--borde);
+    border-radius: 8px;
+}
+
+.lista-informacion strong {
+    color: var(--celeste);
+}
+
+
+
+
+.dos-columnas {
+        grid-template-columns: 1fr;
+}
+
+
+
+
+
