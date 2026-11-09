@@ -1,0 +1,47 @@
+.error-404 {
+    min-height: 80vh;
+    padding: 80px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+
+    background:
+        radial-gradient(
+            ellipse at 50% 40%,
+            rgba(255, 35, 72, 0.15),
+            transparent 50%
+        ),
+        radial-gradient(
+            ellipse at 80% 80%,
+            rgba(0, 217, 255, 0.08),
+            transparent 45%
+        ),
+        var(--fondo);
+}
+
+.error-contenido {
+    max-width: 750px;
+    animation: error-aparecer 0.9s ease both;
+}
+
+.error-404 h2 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin: 20px 0;
+}
+
+.error-404 p {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+
+.error-404 .linea-roja {
+    margin: 25px auto;
+}
+
+.error-botones {
+    justify-content: center;
+    margin-top: 25px;
+}
