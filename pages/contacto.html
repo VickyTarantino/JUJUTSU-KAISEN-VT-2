@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/general.css">
+    <link rel="stylesheet" href="/css/contacto.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="/index.html"> 
+                <img src="/img/logojjk.jpg" alt="" width="200px">
+            </a>
+            <ul class="nav-lista">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/pages/sinopsis.html">Sinopsis</a></li>
+                <li><a href="/pages/personajes.html">Personajes</a></li>
+                <li><a href="/pages/tenporadas.html">Temporadas</a></li>
+                <li><a href="/pages/curiosidades.html">Curiosidades</a></li>
+                <li><a href="contacto.html" class="activo" aria-current="page">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+
+
+                <article class="titulo-seccion">
+                    <h2>Dejanos tu mensaje</h2>
+                    <div class="linea-roja"></div>
+                    <p>
+                        Completá los campos para compartir tus comentarios
+                        sobre el sitio y el universo de Jujutsu Kaisen.
+                    </p>
+                </article>
+
+                <form action="/pages/confirmacion.html" method="get" class="formulario">
+
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Ingresá tu nombre"
+                            autocomplete="name"
+                            required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="correo">Correo electrónico</label>
+                        <input
+                            type="email"
+                            id="correo"
+                            name="correo"
+                            placeholder="ejemplo@correo.com"
+                            autocomplete="email"
+                            required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="motivo">Motivo del mensaje</label>
+                        <select id="motivo" name="motivo" required>
+                            <option value="">Seleccioná una opción</option>
+                            <option value="sugerencia">Sugerencia</option>
+                            <option value="opinion">Opinión sobre la página</option>
+                            <option value="contenido">Corrección de contenido</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            placeholder="Escribí tu mensaje..."
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="boton" >
+                        Enviar mensaje
+                    </button>
+
+                </form>
+
+            </div>
+        </section>
+ </main>
+
+     <footer class="footer">
+        <p>
+           Proyecto para Programacion Web 1
+            Sitio no oficial.
+        </p>
+        <p>Redes oficiales: </p>
+        <a class="redes-link" href="https://jujutsukaisen.jp/">Sitio oficial</a>
+        <a  class="redes-link" href="https://www.instagram.com/jujutsukaisen/?hl=es">Instagram (EN)</a>
+    </footer>
+
+    
+</body>
+</html>
